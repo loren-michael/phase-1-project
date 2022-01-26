@@ -1,0 +1,12 @@
+{
+    "id": 1,
+    "name": "recipe name",
+    "sourceURL": "source URL",
+    "sourceName": "source name",
+    "prepTime" : "prep time",
+    "cookTime" : "cook time",
+    "ingredients": [],
+    "video": "embedURL",
+    "tags": [],
+    "meal": "meal category"
+}
