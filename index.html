@@ -5,23 +5,28 @@
         <title>Recipe Manager</title>
     </head>
     <body>
-        <h1>Recipe Manager</h1>
-        <div id="select">
-            <button id="add-recipe" type="submit"> Add A Recipe </button>
-            Or select a meal: 
-            <select>
-                <option>Snack</option>
-                <option>Breakfast</option>
-                <option>Lunch</option>
-                <option>Dinner</option>
-            </select>
-            <button type="submit" id="meal-select"> Let's go! </button>
+        <div id="header">
+            <h1>Recipe Manager</h1>
+            <div id="select">
+                <button id="add-recipe" type="submit"> Add A Recipe </button>
+                Or select a meal: 
+                <select id="meal-selector">
+                    <option>Show All</option>
+                    <option>Dinner</option>
+                    <option>Lunch</option>
+                    <option>Breakfast</option>
+                    <option>Snack</option>
+                </select>
+                <button type="submit" id="meal-select"> Let's go! </button>
+                <br>
+                <br>
+            </div>
         </div>
-        <section id="recipe-list">
-
-        </section>
+        <ul id="recipe-list">
+            <!-- Recipe list displays here -->
+        </ul>
         <section id="recipe-display">
-
+            <!-- Single recipe details display here -->
         </section>
         <script src="script.js"></script>
     </body>

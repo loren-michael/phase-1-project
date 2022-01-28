@@ -1,4 +1,29 @@
 body {
-    background: mediumturquoise;
+    background: rgb(6, 105, 67);
+
+}
+
+div#header {
     text-align: center;
-};
+}
+
+img.center {
+    display: block;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.card {
+    /* this margin gives me a border outside my div */
+    margin: 10px;
+    padding: 15px;
+    padding-top: 35px;
+    background: lightblue;
+    block-size: auto;
+}
