@@ -27,23 +27,27 @@ function getRecipeDetails(e) {
     .then(renderDetails)
 }
 
-function postComment(e) {
-    const newComment = e.target.value;
-    console.log(newComment)
-    fetch(baseURL + `/${e.target.id}`)
+function patchComment(e) {
+    // Look up recipe ID and retrieve the value from the comment box
+    const id = e.target.parentNode.parentNode.id;
+    const newCommentInput = document.getElementById("new-comment")
+    const newComment = newCommentInput.value;
+
+    // Patch to the recipe through the ID, push new comment to the comment array
+    fetch(baseURL + `/${id}`)
     .then(resp => resp.json())
     .then(recObj => {
-        const comments = recObj.comments;
+        let comments = recObj.comments;
         comments.push(newComment)
-    })
-    fetch(baseURL + `/${e.target.id}`, {
-        method: "PATCH",
-        headers: {
-            "Content-Type": "application/json",
-            "Accept": "application/json"
-        },
-        body: JSON.stringify({comments})
-    }) .then(renderComment(newComment))
+            fetch(baseURL + `/${id}`, {
+            method: "PATCH",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json"
+            },
+            body: JSON.stringify({comments})
+        }) .then(renderComment(newComment))
+    }) 
 }
 
 // Rendering
@@ -122,7 +126,7 @@ function renderDetails(recipe) {
     recDispSec.appendChild(recCard);
 }
 
-function renderComment(e){
+function renderComment() {
     // Hide the add comment button so you can't add more than one at a time
     const btnAddComment = document.getElementById("btn-add-comment");
     btnAddComment.style="display: in-block";
@@ -136,6 +140,7 @@ function renderComment(e){
     commentForm.remove();
     const btnCommSubmit = document.getElementById("btn-comm-submit");
     btnCommSubmit.remove();
+
 }
 
 
@@ -159,9 +164,8 @@ function addCommentForm() {
     const btnCommSubmit = document.createElement("button");
     btnCommSubmit.innerText = " Submit Comment ";
     btnCommSubmit.id = "btn-comm-submit";
-    btnCommSubmit.addEventListener("click", renderComment);
+    btnCommSubmit.addEventListener("click", patchComment);
     commentSection.prepend(commentForm, btnCommSubmit);
-    
 }
 
 // function addRecipeRequest() {
