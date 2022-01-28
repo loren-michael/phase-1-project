@@ -9,7 +9,7 @@ const recDispSec = document.getElementById("recipe-display");
 // DOMContentLoaded
 document.addEventListener("DOMContentLoaded", () => {
     fetchRecipes()
-    btnAddRec.addEventListener("click", addRecipeRequest)
+    // btnAddRec.addEventListener("click", addRecipeRequest)
 })// End of DOMContentLoaded
 
 
@@ -122,18 +122,21 @@ function renderDetails(recipe) {
     recDispSec.appendChild(recCard);
 }
 
-
 function renderComment(e){
+    // Hide the add comment button so you can't add more than one at a time
     const btnAddComment = document.getElementById("btn-add-comment");
     btnAddComment.style="display: in-block";
+    // Look up the comment section
     const commentSection = document.getElementById("comment-section");
-    const newComment = document.createElement("li");
-    newComment.innerText = e.target.value;
-    commentSection.append(newComment);
-
+    const newCommentLi = document.createElement("li");
+    let newCommentInput = document.getElementById("new-comment");
+    newCommentLi.innerText = newCommentInput.value;
+    commentSection.append(newCommentLi);
+    const commentForm = document.getElementById("comment-form");
+    commentForm.remove();
+    const btnCommSubmit = document.getElementById("btn-comm-submit");
+    btnCommSubmit.remove();
 }
-
-
 
 
 // Event Handlers
@@ -151,16 +154,16 @@ function addCommentForm() {
     const commentForm = document.createElement("form");
     commentForm.id = "comment-form";
     commentForm.innerHTML = `
-        <textarea required placeholder="Add your comment for this recipe"></textarea>
+        <textarea required id="new-comment" placeholder="Add your comment for this recipe"></textarea>
     `
-    const btnCommSubmit = document.createElement("button")
+    const btnCommSubmit = document.createElement("button");
     btnCommSubmit.innerText = " Submit Comment ";
-    btnCommSubmit.addEventListener("click", renderComment)
-    commentSection.prepend(commentForm, btnCommSubmit)
+    btnCommSubmit.id = "btn-comm-submit";
+    btnCommSubmit.addEventListener("click", renderComment);
+    commentSection.prepend(commentForm, btnCommSubmit);
     
 }
 
-function addRecipeRequest() {
-    recDispSec.innerHTML = "";
-    
-}
+// function addRecipeRequest() {
+//     recDispSec.innerHTML = "";
+// }
