@@ -38,7 +38,8 @@ function patchComment(e) {
     .then(resp => resp.json())
     .then(recObj => {
         let comments = recObj.comments;
-        comments.push(newComment)
+        comments.push(`${newComment}`)
+        console.log(comments)
             fetch(baseURL + `/${id}`, {
             method: "PATCH",
             headers: {
