@@ -32,14 +32,12 @@ function patchComment(e) {
     const id = e.target.parentNode.parentNode.id;
     const newCommentInput = document.getElementById("new-comment")
     const newComment = newCommentInput.value;
-
-    // Patch to the recipe through the ID, push new comment to the comment array
+    // Patch to the recipe through the ID, push new comment to the comment array and render
     fetch(baseURL + `/${id}`)
     .then(resp => resp.json())
     .then(recObj => {
         let comments = recObj.comments;
         comments.push(`${newComment}`)
-        console.log(comments)
             fetch(baseURL + `/${id}`, {
             method: "PATCH",
             headers: {
@@ -81,6 +79,16 @@ function renderDetails(recipe) {
         <h2 align="middle">${recipe.name}</h2>
         <h3 align="middle">By ${recipe.author}</h3>
     `;
+    // Check to see if there is a source link, adding link if available
+    if(recipe.source.length > 0) {
+        const recipeLink = document.createElement("a");
+        recipeLink.style.marginLeft = "auto";
+        recipeLink.style.marginRight = "auto";
+        recipeLink.innerHTML = `
+            <a target="_blank" href="${recipe.source}">Recipe source link</a>
+        `;
+        recCard.append(recipeLink)
+    }
     //Creating ingredient header and list using a forEach
     const ingredientHeader = document.createElement("h3");
     ingredientHeader.innerText = "Ingredients:";
@@ -141,7 +149,6 @@ function renderComment() {
     commentForm.remove();
     const btnCommSubmit = document.getElementById("btn-comm-submit");
     btnCommSubmit.remove();
-
 }
 
 
@@ -153,10 +160,11 @@ function revealList() {
 }
 
 function addCommentForm() {
+    // Find the comment section and the add comment button so we can hide it later
     const commentSection = document.getElementById("comment-section");
     const btnAddComment = document.getElementById("btn-add-comment");
     btnAddComment.style="display: none";
-    
+    // Add the comment form to the comment section
     const commentForm = document.createElement("form");
     commentForm.id = "comment-form";
     commentForm.innerHTML = `
