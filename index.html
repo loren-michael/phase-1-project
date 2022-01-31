@@ -28,8 +28,90 @@
         <section id="recipe-display">
             <!-- Single recipe details display here -->
         </section>
-        <section id="add-recipe-form">
+        <section id="add-recipe-section">
+            <form method="post" action="" id="add-recipe-form">
             <!-- Add a form for adding a new recipe here -->
+                <table id="add-recipe-table" class="center">
+                <tr>
+                    <th colspan="2">Add a Recipe</th>
+                </tr>
+                <tr>
+                    <td>Recipe Name:</td>
+                    <td><input required type="text" id="name"></td>
+                </tr>
+                <tr>
+                    <td>Image HTML:</td>
+                    <td><input type="text" id="img"></td>
+                </tr>
+                    <tr>
+                    <td>Video Embed:</td>
+                    <td><input type="text" id="video"></td>
+                </tr>
+                <tr>
+                    <td>Author:</td>
+                    <td><input type="text" id="author"></td>
+                </tr>
+                <tr>
+                    <td>Source:</td>
+                    <td><input type="text" id="source"></td>
+                </tr>
+                <tr>
+                    <td>Meal type:</td>
+                    <td><select required id="add-meal-selector">
+                        <option>Dinner</option>
+                        <option>Lunch</option>
+                        <option>Breakfast</option>
+                        <option>Snack</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Prep time:</td>
+                    <td><input type="text" id="preptime"></td>
+                </tr>
+                <tr>
+                    <td>Cook time:</td>
+                    <td><input type="text" id="cooktime"></td>
+                </tr>
+                <tr>
+                    <td>Servings:</td>
+                    <td><input type="text" id="servings"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Initial comment:</td>
+                    <td><textarea></textarea></td>
+                </tr>
+                <tr>
+                    <th colspan="2"><button type="submit" id="submit-new-recipe"> Add this recipe! </button></td>
+                </tr>                
+            </table>
+
+            <!-- // Add a textarea for inital comment? -->
+            <!-- <label for=""></label><input type="text" id=""> -->
+            </form>
         </section>
         <script src="script.js"></script>
     </body>

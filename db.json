@@ -9,7 +9,6 @@
       "author": "Amanda",
       "mealtype": "breakfast",
       "preptime": 15,
-      "waittime": 0,
       "cooktime": 15,
       "servings": 2,
       "comments": [
@@ -49,7 +48,6 @@
       "author": "Broma Bakery",
       "mealtype": "snack",
       "preptime": 10,
-      "waittime": 0,
       "cooktime": 15,
       "servings": 12,
       "comments": [
@@ -93,7 +91,6 @@
       "author": "PETA",
       "mealtype": "dinner",
       "preptime": 30,
-      "waittime": 0,
       "cooktime": 40,
       "servings": 8,
       "comments": [
@@ -135,7 +132,6 @@
       "author": "Carlsbad Cravings",
       "mealtype": "lunch",
       "preptime": 10,
-      "waittime": 0,
       "cooktime": 40,
       "servings": 8,
       "comments": [
@@ -180,7 +176,6 @@
       "author": "Alison Roman",
       "mealtype": "dinner",
       "preptime": 30,
-      "waittime": 0,
       "cooktime": 60,
       "servings": 8,
       "comments": [],
@@ -220,7 +215,6 @@
       "author": "",
       "mealtype": "",
       "preptime": 0,
-      "waittime": 0,
       "cooktime": 0,
       "servings": 0,
       "comments": [],
@@ -252,7 +246,6 @@
       "author": "",
       "mealtype": "",
       "preptime": 0,
-      "waittime": 0,
       "cooktime": 0,
       "servings": 0,
       "comments": [],
@@ -284,7 +277,6 @@
       "author": "",
       "mealtype": "",
       "preptime": 0,
-      "waittime": 0,
       "cooktime": 0,
       "servings": 0,
       "comments": [],
