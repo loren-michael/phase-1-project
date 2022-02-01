@@ -9,7 +9,7 @@ const recDispSec = document.getElementById("recipe-display");
 // DOMContentLoaded
 document.addEventListener("DOMContentLoaded", () => {
     fetchRecipes()
-    // btnAddRec.addEventListener("click", addRecipeRequest)
+
 })// End of DOMContentLoaded
 
 
@@ -152,6 +152,10 @@ function renderComment() {
 }
 
 
+// Event listeners
+
+
+
 // Event Handlers
 
 function revealList() {
@@ -177,6 +181,3 @@ function addCommentForm() {
     commentSection.prepend(commentForm, btnCommSubmit);
 }
 
-// function addRecipeRequest() {
-//     recDispSec.innerHTML = "";
-// }
