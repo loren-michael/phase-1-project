@@ -9,7 +9,6 @@ const recDispSec = document.getElementById("recipe-display");
 // DOMContentLoaded
 document.addEventListener("DOMContentLoaded", () => {
     fetchRecipes()
-
 })// End of DOMContentLoaded
 
 
@@ -154,6 +153,7 @@ function renderComment() {
 
 // Event listeners
 
+btnAddRec.addEventListener("click", toggleFormVisibility)
 
 
 // Event Handlers
@@ -179,5 +179,15 @@ function addCommentForm() {
     btnCommSubmit.id = "btn-comm-submit";
     btnCommSubmit.addEventListener("click", patchComment);
     commentSection.prepend(commentForm, btnCommSubmit);
+}
+
+function toggleFormVisibility(e) {
+    if (e.target.innerText === "Add A Recipe") {
+        e.target.innerText = "Hide Form";
+        document.getElementById("add-recipe-div").classList.remove("hide")
+    } else if (e.target.innerText !== "Add A Recipe") {
+        e.target.innerText = "Add A Recipe";
+        document.getElementById("add-recipe-div").classList.add("hide");
+    }
 }
 

@@ -7,7 +7,7 @@ div#header {
 }
 
 .hide {
-    display: hidden;
+    display: none;
 }
 
 .visible {
