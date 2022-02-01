@@ -7,7 +7,7 @@
       "name": "Meat Lovers Skillet",
       "source": "",
       "author": "Amanda",
-      "mealtype": "breakfast",
+      "mealtype": "Breakfast",
       "preptime": 15,
       "cooktime": 15,
       "servings": 2,
@@ -46,7 +46,7 @@
       "name": "Copycat Levain Bakery Chocolate Chip Cookies",
       "source": "https://bromabakery.com/copycat-levain-bakery-chocolate-chip-cookies",
       "author": "Broma Bakery",
-      "mealtype": "snack",
+      "mealtype": "Snack",
       "preptime": 10,
       "cooktime": 15,
       "servings": 12,
@@ -89,7 +89,7 @@
       "name": "Chicken and Dumplings",
       "source": "https://www.peta.org/recipes/chicken-dumplings-2/",
       "author": "PETA",
-      "mealtype": "dinner",
+      "mealtype": "Dinner",
       "preptime": 30,
       "cooktime": 40,
       "servings": 8,
@@ -119,9 +119,7 @@
         "1 roll of Chickettes, torn into small pieces",
         "1 bay leaf"
       ],
-      "tags": [
-        "dinner"
-      ]
+      "tags": []
     },
     {
       "id": 4,
@@ -130,7 +128,7 @@
       "name": "One Pot Lasagna Soup",
       "source": "https://carlsbadcravings.com/easy-one-pot-lasagna-soup/#wprm-recipe-container-36068",
       "author": "Carlsbad Cravings",
-      "mealtype": "lunch",
+      "mealtype": "Lunch",
       "preptime": 10,
       "cooktime": 40,
       "servings": 8,
@@ -174,7 +172,7 @@
       "name": "Baked Ziti",
       "source": "https://cooking.nytimes.com/recipes/1018954-baked-ziti",
       "author": "Alison Roman",
-      "mealtype": "dinner",
+      "mealtype": "Dinner",
       "preptime": 30,
       "cooktime": 60,
       "servings": 8,
@@ -242,7 +240,7 @@
       "name": "Chrissy Teigen’s French Toast Casserole With Salted Frosted Flakes",
       "source": "https://food52.com/recipes/74530-chrissy-teigen-s-french-toast-casserole-with-salted-frosted-flakes",
       "author": "Genius Recipes",
-      "mealtype": "",
+      "mealtype": "Breakfast",
       "preptime": "13 hours",
       "cooktime": 60,
       "servings": 8,
@@ -364,7 +362,7 @@
       "name": "Eggplant Manicotti",
       "source": "https://www.4theloveoffoodblog.com/meatless-monday-eggplant-manicotti/",
       "author": "Rocco Dispirito",
-      "mealtype": "",
+      "mealtype": "Dinner",
       "preptime": 20,
       "cooktime": 40,
       "servings": 6,

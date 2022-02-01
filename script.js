@@ -59,11 +59,11 @@ function renderAllRecipes(recArr) {
 function renderOneRecipe(recipe) {
     const recList = document.createElement("li")
     recList.id = recipe.id;
+    recList.className = recipe.mealtype;
     recList.innerText = recipe.name;
     recList.addEventListener('click', getRecipeDetails)
     recListSec.appendChild(recList)
 }
-
 
 function renderDetails(recipe) {
     // Hide the recipe index list when rendering details of a recipe
@@ -150,10 +150,27 @@ function renderComment() {
     btnCommSubmit.remove();
 }
 
+function filterRecipesByMeal() {
+    const recipeList = document.getElementById("recipe-list");
+    const mealType = mealSelector.value;
+    let listLi = recipeList.getElementsByTagName("li")
+    console.log(listLi)
+    for(i=0; i < listLi.length; i++) {
+        if (mealType === "Show All"){
+            listLi[i].style.display = ""
+        } else if (listLi[i].className === mealType) {
+            listLi[i].style.display = ""
+        } else {
+            listLi[i].style.display = "none"
+        }
+    }
+}
+
 
 // Event listeners
 
 btnAddRec.addEventListener("click", toggleFormVisibility)
+btnLoadSel.addEventListener("click", filterRecipesByMeal)
 
 
 // Event Handlers
@@ -190,4 +207,3 @@ function toggleFormVisibility(e) {
         document.getElementById("add-recipe-div").classList.add("hide");
     }
 }
-
