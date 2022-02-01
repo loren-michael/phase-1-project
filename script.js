@@ -1,5 +1,6 @@
 // Assignments
 const baseURL = "http://localhost:3000/recipes"
+const selectBar = document.getElementById("select");
 const btnAddRec = document.getElementById("add-recipe");
 const mealSelector = document.getElementById("meal-selector");
 const btnLoadSel = document.getElementById("meal-select");
@@ -132,6 +133,8 @@ function renderDetails(recipe) {
     backBtn.addEventListener("click", revealList);
     recCard.append(ingredientHeader, recIngList, instrHeader, recInstructions, commentHeader, btnAddComment, commentSection, backBtn);
     recDispSec.appendChild(recCard);
+    selectBar.prepend(backBtn)
+
 }
 
 function renderComment() {
