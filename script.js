@@ -131,10 +131,12 @@ function renderDetails(recipe) {
     const backBtn = document.createElement("button");
     backBtn.innerText = " Back to Index ";
     backBtn.addEventListener("click", revealList);
+    const backBtnClone = backBtn.cloneNode(true);
+    backBtnClone.id = "back-btn-clone";
+    backBtnClone.addEventListener("click", revealList);
     recCard.append(ingredientHeader, recIngList, instrHeader, recInstructions, commentHeader, btnAddComment, commentSection, backBtn);
     recDispSec.appendChild(recCard);
-    selectBar.prepend(backBtn)
-
+    selectBar.prepend(backBtnClone)
 }
 
 function renderComment() {
@@ -181,6 +183,7 @@ btnLoadSel.addEventListener("click", filterRecipesByMeal)
 function revealList() {
     recDispSec.innerHTML = "";
     recListSec.style="display: inline-block"
+    document.getElementById("back-btn-clone").remove()
 }
 
 function addCommentForm() {
