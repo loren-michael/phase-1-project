@@ -7,8 +7,11 @@
     <body>
         <div id="header">
             <h1>Recipe Manager</h1>
-            <div id="select">
+            <div id="navigation">
                 <button id="add-recipe" type="submit"> Add A Recipe </button>
+            </div>
+            <div id="select">
+                <br>
                 Or select a meal: 
                 <select id="meal-selector">
                     <option>Show All</option>
@@ -50,7 +53,7 @@
                 </tr>
                 <tr>
                     <td>Author:</td>
-                    <td><input type="text" id="author"></td>
+                    <td><input required type="text" id="author"></td>
                 </tr>
                 <tr>
                     <td>Source:</td>
@@ -62,6 +65,7 @@
                         <option>Dinner</option>
                         <option>Lunch</option>
                         <option>Breakfast</option>
+                        <option>Side</option>
                         <option>Snack</option>
                     </select></td>
                 </tr>
@@ -78,8 +82,8 @@
                     <td><input type="text" id="servings"></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
+                    <td>Ingredients:</td>
+                    <td><input type="text" id="ingredients"><button type="submit" id="add-ingredient"> Add Ingredient </button></td>
                 </tr>
                 <tr>
                     <td></td>

@@ -1,11 +1,15 @@
 // Assignments
-const baseURL = "http://localhost:3000/recipes"
+const baseURL = "http://localhost:3000/recipes";
+const navBar = document.getElementById("navigation");
 const selectBar = document.getElementById("select");
 const btnAddRec = document.getElementById("add-recipe");
 const mealSelector = document.getElementById("meal-selector");
 const btnLoadSel = document.getElementById("meal-select");
 const recListSec = document.getElementById("recipe-list");
 const recDispSec = document.getElementById("recipe-display");
+const btnAddIng = document.getElementById("add-ingredient");
+
+// console.log(btnAddIng)
 
 // DOMContentLoaded
 document.addEventListener("DOMContentLoaded", () => {
@@ -62,13 +66,15 @@ function renderOneRecipe(recipe) {
     recList.id = recipe.id;
     recList.className = recipe.mealtype;
     recList.innerText = recipe.name;
-    recList.addEventListener('click', getRecipeDetails)
+    recList.addEventListener("click", getRecipeDetails)
     recListSec.appendChild(recList)
 }
 
 function renderDetails(recipe) {
     // Hide the recipe index list when rendering details of a recipe
-    recListSec.style="display: none"
+    recListSec.style="display: none";
+    btnAddRec.className = "hide";
+
     // Create the recipe card
     const recCard = document.createElement("div");
     recCard.className = "card";
@@ -102,13 +108,13 @@ function renderDetails(recipe) {
     })
     //Creating instruction header and list using a forEach
     const instrHeader = document.createElement("h3");
-    instrHeader.innerText = "Instructions:"
+    instrHeader.innerText = "Instructions:";
     const recInstructions = document.createElement('ol');
     recInstructions.className = "card";
     let instrArr = recipe.instructions;
     instrArr.forEach(instr => {
         const instrLi = document.createElement("li");
-        instrLi.innerText = `${instr}`
+        instrLi.innerText = `${instr}`;
         recInstructions.append(instrLi)
     })
     // Create a comment section and button
@@ -116,19 +122,20 @@ function renderDetails(recipe) {
     commentHeader.innerText = "Comments:";
     const btnAddComment = document.createElement("button");
     btnAddComment.id = "btn-add-comment";
-    btnAddComment.innerText = " Add a comment "
+    btnAddComment.innerText = " Add a comment ";
     btnAddComment.addEventListener("click", addCommentForm);
     const commentSection = document.createElement("ul");
     commentSection.className = "card";
     commentSection.id = "comment-section";
     let commArr = recipe.comments;
     commArr.forEach(comment => {
-        const commentPara = document.createElement("li")
-        commentPara.innerText = `${comment}`
+        const commentPara = document.createElement("li");
+        commentPara.innerText = `${comment}`;
         commentSection.append(commentPara)
     });
-    // Create the back button and add event listener
+    // Create the back button, back button clone for the top of the page and add event listener
     const backBtn = document.createElement("button");
+    backBtn.id = "back-btn";
     backBtn.innerText = " Back to Index ";
     backBtn.addEventListener("click", revealList);
     const backBtnClone = backBtn.cloneNode(true);
@@ -136,7 +143,8 @@ function renderDetails(recipe) {
     backBtnClone.addEventListener("click", revealList);
     recCard.append(ingredientHeader, recIngList, instrHeader, recInstructions, commentHeader, btnAddComment, commentSection, backBtn);
     recDispSec.appendChild(recCard);
-    selectBar.prepend(backBtnClone)
+    selectBar.classList = "hide";
+    navBar.append(backBtnClone)
 }
 
 function renderComment() {
@@ -155,35 +163,23 @@ function renderComment() {
     btnCommSubmit.remove();
 }
 
-function filterRecipesByMeal() {
-    const recipeList = document.getElementById("recipe-list");
-    const mealType = mealSelector.value;
-    let listLi = recipeList.getElementsByTagName("li")
-    console.log(listLi)
-    for(i=0; i < listLi.length; i++) {
-        if (mealType === "Show All"){
-            listLi[i].style.display = ""
-        } else if (listLi[i].className === mealType) {
-            listLi[i].style.display = ""
-        } else {
-            listLi[i].style.display = "none"
-        }
-    }
-}
 
 
 // Event listeners
 
 btnAddRec.addEventListener("click", toggleFormVisibility)
 btnLoadSel.addEventListener("click", filterRecipesByMeal)
+btnAddIng.addEventListener("click", addIngBox)
 
 
 // Event Handlers
 
 function revealList() {
     recDispSec.innerHTML = "";
-    recListSec.style="display: inline-block"
-    document.getElementById("back-btn-clone").remove()
+    recListSec.style="display: inline-block";
+    document.getElementById("back-btn-clone").remove();
+    btnAddRec.classList.remove("hide");
+    selectBar.classList.remove("hide")
 }
 
 function addCommentForm() {
@@ -205,11 +201,39 @@ function addCommentForm() {
 }
 
 function toggleFormVisibility(e) {
+    recListSec.style="display: none";
+    selectBar.className = "hide";
     if (e.target.innerText === "Add A Recipe") {
         e.target.innerText = "Hide Form";
         document.getElementById("add-recipe-div").classList.remove("hide")
     } else if (e.target.innerText !== "Add A Recipe") {
         e.target.innerText = "Add A Recipe";
         document.getElementById("add-recipe-div").classList.add("hide");
+        recListSec.style="display:inline-block";
+        selectBar.classList.remove("hide")
     }
+}
+
+function filterRecipesByMeal() {
+    const recipeList = document.getElementById("recipe-list");
+    const mealType = mealSelector.value;
+    let listLi = recipeList.getElementsByTagName("li")
+    console.log(listLi)
+    for(i=0; i < listLi.length; i++) {
+        if (mealType === "Show All"){
+            listLi[i].style.display = ""
+        } else if (listLi[i].className === mealType) {
+            listLi[i].style.display = ""
+        } else {
+            listLi[i].style.display = "none"
+        }
+    }
+}
+
+function addIngBox(e) {
+    const newIngBox = document.createElement("input");
+    newIngBox.type = "text";
+    newIngBox.id = "ingredients";
+    const addButton = e.target.parentNode
+    addButton.prepend(newIngBox)
 }
