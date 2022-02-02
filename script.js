@@ -8,6 +8,8 @@ const btnLoadSel = document.getElementById("meal-select");
 const recListSec = document.getElementById("recipe-list");
 const recDispSec = document.getElementById("recipe-display");
 const btnAddIng = document.getElementById("add-ingredient");
+const btnAddInstr = document.getElementById("add-instr");
+const btnSubmitRec = document.getElementById("submit-new-recipe")
 
 // console.log(btnAddIng)
 
@@ -52,6 +54,15 @@ function patchComment(e) {
         }) .then(renderComment(newComment))
     }) 
 }
+
+function postARecipe(recObj) {
+
+}
+
+function postNewRecipe(newRecObj) {
+    
+}
+
 
 // Rendering
 
@@ -117,7 +128,7 @@ function renderDetails(recipe) {
         instrLi.innerText = `${instr}`;
         recInstructions.append(instrLi)
     })
-    // Create a comment section and button
+    // Create a comment section and submit button
     const commentHeader = document.createElement("h3");
     commentHeader.innerText = "Comments:";
     const btnAddComment = document.createElement("button");
@@ -154,9 +165,11 @@ function renderComment() {
     // Look up the comment section
     const commentSection = document.getElementById("comment-section");
     const newCommentLi = document.createElement("li");
+    // Create a new comment element and insert text from form, append to comments
     let newCommentInput = document.getElementById("new-comment");
     newCommentLi.innerText = newCommentInput.value;
     commentSection.append(newCommentLi);
+    // Remove the form and button after submitting the comment
     const commentForm = document.getElementById("comment-form");
     commentForm.remove();
     const btnCommSubmit = document.getElementById("btn-comm-submit");
@@ -170,6 +183,8 @@ function renderComment() {
 btnAddRec.addEventListener("click", toggleFormVisibility)
 btnLoadSel.addEventListener("click", filterRecipesByMeal)
 btnAddIng.addEventListener("click", addIngBox)
+btnAddInstr.addEventListener("click", addInstrBox)
+btnSubmitRec.addEventListener("click", createNewRecObj)
 
 
 // Event Handlers
@@ -231,9 +246,60 @@ function filterRecipesByMeal() {
 }
 
 function addIngBox(e) {
+    const lineBreak = document.createElement("br");
     const newIngBox = document.createElement("input");
     newIngBox.type = "text";
-    newIngBox.id = "ingredients";
-    const addButton = e.target.parentNode
-    addButton.prepend(newIngBox)
+    newIngBox.className = "addIngredients";
+    const addButton = e.target.parentNode;
+    addButton.insertBefore(newIngBox, e.target)
+    addButton.insertBefore(lineBreak, e.target)
 }
+
+function addInstrBox(e) {
+    const lineBreak = document.createElement("br");
+    const newInstrBox = document.createElement("input");
+    newInstrBox.type = "text";
+    newInstrBox.className = "addInstr";
+    const addButton = e.target.parentNode;
+    addButton.insertBefore(newInstrBox, e.target)
+    addButton.insertBefore(lineBreak, e.target)
+}
+
+function createNewRecObj (e) {
+    e.preventDefault();// Prevent default on a submit is preventing you from the automatic POST, which in turn stops the page from refreshing
+    //Create our Ingredients array from the HTML collection pull from our form
+    let ingArr = [];
+    let ingColl = document.getElementsByClassName("addIngredients");
+    for (let i = 0; i < ingColl.length; i++) {
+        if (ingColl[i].value.length > 0) {
+            ingArr.push(ingColl[i].value)
+        }
+    };
+    // console.log(ingArr);
+    // Create our Instructions array from the HTML collection pulled from our form
+    let instrArr = [];
+    let instrColl = document.getElementsByClassName("addInstr");
+    for (let i = 0; i < instrColl.length; i++) {
+        if (instrColl[i].value.length > 0) {
+            instrArr.push(instrColl[i].value)
+        }
+    };
+    // console.log(instrArr);
+    //Create our new Recipe Object to be POST-ed to the database
+    let newRecObj = {
+        img: document.getElementById("add-img").value,
+        video: document.getElementById("add-video").value,
+        name: document.getElementById("add-name").value,
+        source: document.getElementById("add-source").value,
+        author: document.getElementById("add-author").value,
+        mealtype: document.getElementById("add-meal-selector").value,
+        preptime: document.getElementById("add-preptime").value,
+        cooktime: document.getElementById("add-cooktime").value,
+        servings: document.getElementById("add-servings").value,
+        instructions: instrArr,
+        ingredients: ingArr
+    }
+    // console.log(newRecObj)
+    postNewRecipe(newRecObj)
+}
+

@@ -12,7 +12,8 @@
       "cooktime": 15,
       "servings": 2,
       "comments": [
-        "From Amanda's trip to Austin, TX."
+        "From Amanda's trip to Austin, TX.",
+        "Sometimes we cook the meat and onion together to save some time"
       ],
       "instructions": [
         "Start with frying frozen hash browns in a hot skillet. Season with garlic powder, onion powder, salt and pepper. Flip when brown and crispy.",
@@ -215,8 +216,15 @@
       "preptime": 10,
       "cooktime": 20,
       "servings": 4,
-      "comments": ["So good when we get ground cherries from the farmer's market."],
-      "instructions": ["Wash the ground cherries in their husks. I have better luck removing the husks if they are moistened. Pinch the base of the husk away from the cherry - it should slide off easily.", "Prepare the vinaigrette by combining the olive oil, lime juice, lime zest and salt and pepper. Set aside.", "Place the grilled corn, ground cherries, cukes, basil, shallot, and jalapeño into a medium sized serving bowl and mix the ingredients thoroughly.", "Add the vinaigrette, mix all ingredients, and chill in the refrigerator."],
+      "comments": [
+        "So good when we get ground cherries from the farmer's market."
+      ],
+      "instructions": [
+        "Wash the ground cherries in their husks. I have better luck removing the husks if they are moistened. Pinch the base of the husk away from the cherry - it should slide off easily.",
+        "Prepare the vinaigrette by combining the olive oil, lime juice, lime zest and salt and pepper. Set aside.",
+        "Place the grilled corn, ground cherries, cukes, basil, shallot, and jalapeño into a medium sized serving bowl and mix the ingredients thoroughly.",
+        "Add the vinaigrette, mix all ingredients, and chill in the refrigerator."
+      ],
       "ingredients": [
         "1/8 cup olive oil",
         "juice and zest of one small lime",
@@ -245,7 +253,13 @@
       "cooktime": 60,
       "servings": 8,
       "comments": [],
-      "instructions": ["Butter a 9 x 13-inch baking dish (or a tall-sided 12-inch ovenproof skillet) and arrange the cubed bread in the dish.", "In a big bowl, whisk the eggs to combine, then whisk in the heavy cream, milk, rum, brown sugar, vanilla, cinnamon, nutmeg, and salt until smooth. Pour the mixture over the bread, really pressing down on the bread to help the custard soak in. Cover with plastic wrap and refrigerate for at least 6 hours and up to 12.", "Heat the oven to 350°F. Take the casserole out of the fridge and let it sit at room temp for 30 minutes.", "Make the topping: In a bowl, combine the cereal, melted butter, and salt and toss to coat. Spread the mixture evenly over the casserole.", "Bake until the topping is golden and the bread cubes peeking out of the top are crusty and toasty, 50 to 55 minutes. Serve warm with maple syrup."],
+      "instructions": [
+        "Butter a 9 x 13-inch baking dish (or a tall-sided 12-inch ovenproof skillet) and arrange the cubed bread in the dish.",
+        "In a big bowl, whisk the eggs to combine, then whisk in the heavy cream, milk, rum, brown sugar, vanilla, cinnamon, nutmeg, and salt until smooth. Pour the mixture over the bread, really pressing down on the bread to help the custard soak in. Cover with plastic wrap and refrigerate for at least 6 hours and up to 12.",
+        "Heat the oven to 350°F. Take the casserole out of the fridge and let it sit at room temp for 30 minutes.",
+        "Make the topping: In a bowl, combine the cereal, melted butter, and salt and toss to coat. Spread the mixture evenly over the casserole.",
+        "Bake until the topping is golden and the bread cubes peeking out of the top are crusty and toasty, 50 to 55 minutes. Serve warm with maple syrup."
+      ],
       "ingredients": [
         "1 tablespoon butter",
         "1 pound French bread (1 large loaf), cut into 1-inch pieces",
@@ -276,7 +290,13 @@
       "cooktime": 30,
       "servings": 4,
       "comments": [],
-      "instructions": ["To make the spicy sunflower seeds, preheat the oven to 350°F. Toss the seeds with the other ingredients in a large bowl, until well coated. Spread the coated seeds out on a baking sheet in a thin even layer. Bake for 15 minutes or until well toasted, allow to cool completely before using.", "To make the ginger miso dressing, combine all ingredients except the oil in a powerful blender and blitz on low until smooth. Increase the speed to medium and slowly add the grape seed oil. Add salt and pepper to taste.", "To make the roasted portobello mix, turn on your broiler and toss the mushrooms together with the oil and seasoning. Lay the mushrooms out on a baking sheet in a thin even layer. Place in the oven under the broiler for 10-12 minutes, or until well browned and softened, rotate the baking sheet if necessary for even broiling.   Set mushrooms aside to stay warm before serving.", "To make the roasted sesame tofu, cut the tofu into large bite sized pieces, toss with the oil, and season with salt and pepper. Place tofu on a baking sheet in a single layer, broil alongside the mushrooms for 15-20 minutes, or until browned and slightly crispy, remove pan from the broiler to mix and turn the pieces for even browning. Once the tofu is nice and crisp, toss it in a bowl with the remaining ingredients to marinade & coat the tofu pieces. Be careful handling hot tofu right out of the oven.", "When ready to serve, place the cooked wild rice in the bottom of a bowl, and top with remaining ingredients. Drizzle over dressing to taste."],
+      "instructions": [
+        "To make the spicy sunflower seeds, preheat the oven to 350°F. Toss the seeds with the other ingredients in a large bowl, until well coated. Spread the coated seeds out on a baking sheet in a thin even layer. Bake for 15 minutes or until well toasted, allow to cool completely before using.",
+        "To make the ginger miso dressing, combine all ingredients except the oil in a powerful blender and blitz on low until smooth. Increase the speed to medium and slowly add the grape seed oil. Add salt and pepper to taste.",
+        "To make the roasted portobello mix, turn on your broiler and toss the mushrooms together with the oil and seasoning. Lay the mushrooms out on a baking sheet in a thin even layer. Place in the oven under the broiler for 10-12 minutes, or until well browned and softened, rotate the baking sheet if necessary for even broiling.   Set mushrooms aside to stay warm before serving.",
+        "To make the roasted sesame tofu, cut the tofu into large bite sized pieces, toss with the oil, and season with salt and pepper. Place tofu on a baking sheet in a single layer, broil alongside the mushrooms for 15-20 minutes, or until browned and slightly crispy, remove pan from the broiler to mix and turn the pieces for even browning. Once the tofu is nice and crisp, toss it in a bowl with the remaining ingredients to marinade & coat the tofu pieces. Be careful handling hot tofu right out of the oven.",
+        "When ready to serve, place the cooked wild rice in the bottom of a bowl, and top with remaining ingredients. Drizzle over dressing to taste."
+      ],
       "ingredients": [
         "2 cups cooked wild rice, warm",
         "4 cups shredded kale",
@@ -338,7 +358,21 @@
       "cooktime": 75,
       "servings": 6,
       "comments": [],
-      "instructions": ["Preheat your oven to 425°F and place a rack in the top third position.", "Carefully cut the butternut squash in half lengthwise, then scoop out the seeds and pulp and discard. Next, with the help of a vegetable peeler, remove the tough outer skin as well as the thin whitish layer beneath it, in order to completely expose the bright orange flesh of the gourd.", "Place both squash halves cut side down on a roasting pan and bake for 20 minutes; remove from oven and let cool until you can safely handle the squash with your bare fingers, about 5 minutes.", "While the squash is in the oven, combine the honey, olive oil, Dijon mustard, chopped herbs, salt and pepper in a small bowl and mix well with a small whisk until completely combined.", "Remove one squash half to a cutting board and place the handle of a wooden spoon (or other wooden utensil) on either side of the squash. These will act as guards and will prevent your blade from going all the way as you slice through the squash. With the help of a sharp knife, carefully cut very thin slits in the squash, starting at the narrow end; always be mindful not to cut all the way through. Return the sliced squash to the baking sheet and repeat with the second half.", "Brush about 1/3 of the honey mixture over the squash halves, trying as best you can to force the mixture down the slits. Add 1/4 cup of water to the bottom of the pan and return to oven for 15 minutes.", "When the squash is in the oven, always keep a close eye on things to make sure that the syrup at the bottom of the pan doesn't burn; add a little bit more water, a few tablespoons at a time, if necessary.", "After 15 minutes, remove the squash from the oven and brush with more of the honey mixture as well as with some of the cooking liquid that's now at bottom of the pan (this will add tons of color and flavor!)", "Add another 1/4 cup water to bottom of the pan and return to the oven for a further 15 minutes.", "Remove the squash from the oven once more and brush it with some of the pan juices.", "Add the chopped pecans to the remaining honey glaze and stir to combine. Spoon that mixture over the top of the squash, dividing it equally between both halves.", "Add another 1/4 cup water to bottom of the roasting pan and return it to the oven for a final 5 minutes, or until the squash is beautifully golden and tender.", "Remove from oven; spoon some of the pan juices over the squash, sprinkle with a little bit of fresh herbs and a pinch of salt."],
+      "instructions": [
+        "Preheat your oven to 425°F and place a rack in the top third position.",
+        "Carefully cut the butternut squash in half lengthwise, then scoop out the seeds and pulp and discard. Next, with the help of a vegetable peeler, remove the tough outer skin as well as the thin whitish layer beneath it, in order to completely expose the bright orange flesh of the gourd.",
+        "Place both squash halves cut side down on a roasting pan and bake for 20 minutes; remove from oven and let cool until you can safely handle the squash with your bare fingers, about 5 minutes.",
+        "While the squash is in the oven, combine the honey, olive oil, Dijon mustard, chopped herbs, salt and pepper in a small bowl and mix well with a small whisk until completely combined.",
+        "Remove one squash half to a cutting board and place the handle of a wooden spoon (or other wooden utensil) on either side of the squash. These will act as guards and will prevent your blade from going all the way as you slice through the squash. With the help of a sharp knife, carefully cut very thin slits in the squash, starting at the narrow end; always be mindful not to cut all the way through. Return the sliced squash to the baking sheet and repeat with the second half.",
+        "Brush about 1/3 of the honey mixture over the squash halves, trying as best you can to force the mixture down the slits. Add 1/4 cup of water to the bottom of the pan and return to oven for 15 minutes.",
+        "When the squash is in the oven, always keep a close eye on things to make sure that the syrup at the bottom of the pan doesn't burn; add a little bit more water, a few tablespoons at a time, if necessary.",
+        "After 15 minutes, remove the squash from the oven and brush with more of the honey mixture as well as with some of the cooking liquid that's now at bottom of the pan (this will add tons of color and flavor!)",
+        "Add another 1/4 cup water to bottom of the pan and return to the oven for a further 15 minutes.",
+        "Remove the squash from the oven once more and brush it with some of the pan juices.",
+        "Add the chopped pecans to the remaining honey glaze and stir to combine. Spoon that mixture over the top of the squash, dividing it equally between both halves.",
+        "Add another 1/4 cup water to bottom of the roasting pan and return it to the oven for a final 5 minutes, or until the squash is beautifully golden and tender.",
+        "Remove from oven; spoon some of the pan juices over the squash, sprinkle with a little bit of fresh herbs and a pinch of salt."
+      ],
       "ingredients": [
         "1 medium butternut squash, about 1kg | 2.2lb",
         "1/4 cup unpasteurized honey (or maple syrup)",
@@ -366,8 +400,22 @@
       "preptime": 20,
       "cooktime": 40,
       "servings": 6,
-      "comments": ["Use this as a base recipe for regular manicotti or stuffed shells"],
-      "instructions": ["Preheat oven to 450 degrees. Line two baking sheets with parchment paper.", "Using a large, sharp knife, square off the eggplant to make a block about 6 inches long and 4 inches wide. Slice the eggplant lengthwise into 8 slices that are about 1/6 inch thick.", "Lay the eggplant slices in a single layer on the prepared baking sheets. Season the eggplant with salt and pepper to taste and spray lightly with olive oil spray (or brush on olive oil).", "Roast until the eggplant is almost tender, about 20 minutes. Let it cool slightly. (Leave the oven on).", "While the eggplant is cooling, combine the ricotta, 1/4 cup of the Parmigiano-Reggiano, and the basil in a medium bowl. Season with salt and pepper to taste.", "Spread 3/4 cup of the marinara sauce over the bottom of a 8X10 baking dish.", "Lay the roasted eggplant out and spoon one eighth of the ricotta mixture onto the bottom of each piece of eggplant, and then roll it up, jelly-roll style, to encase the filling.", "Nestle the 8 eggplant “manicotti”, seam side down, in the baking dish.", "Spoon the remaining 3/4 cup marinara sauce over the eggplant.", "Sprinkle with the mozzarella and remaining 1/4 cup Parmigiano-Reggiano.", "Bake until cheese is bubbly and the filling is hot, about 18 minutes. Serve immediately."],
+      "comments": [
+        "Use this as a base recipe for regular manicotti or stuffed shells"
+      ],
+      "instructions": [
+        "Preheat oven to 450 degrees. Line two baking sheets with parchment paper.",
+        "Using a large, sharp knife, square off the eggplant to make a block about 6 inches long and 4 inches wide. Slice the eggplant lengthwise into 8 slices that are about 1/6 inch thick.",
+        "Lay the eggplant slices in a single layer on the prepared baking sheets. Season the eggplant with salt and pepper to taste and spray lightly with olive oil spray (or brush on olive oil).",
+        "Roast until the eggplant is almost tender, about 20 minutes. Let it cool slightly. (Leave the oven on).",
+        "While the eggplant is cooling, combine the ricotta, 1/4 cup of the Parmigiano-Reggiano, and the basil in a medium bowl. Season with salt and pepper to taste.",
+        "Spread 3/4 cup of the marinara sauce over the bottom of a 8X10 baking dish.",
+        "Lay the roasted eggplant out and spoon one eighth of the ricotta mixture onto the bottom of each piece of eggplant, and then roll it up, jelly-roll style, to encase the filling.",
+        "Nestle the 8 eggplant “manicotti”, seam side down, in the baking dish.",
+        "Spoon the remaining 3/4 cup marinara sauce over the eggplant.",
+        "Sprinkle with the mozzarella and remaining 1/4 cup Parmigiano-Reggiano.",
+        "Bake until cheese is bubbly and the filling is hot, about 18 minutes. Serve immediately."
+      ],
       "ingredients": [
         "1 large eggplant (about 8 inches long and 5 inches in diameter) ",
         "1 cup fat free ricotta",
