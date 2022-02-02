@@ -66,6 +66,7 @@ function postNewRecipe(newRecObj) {
     })
     .then(resp => resp.json())
     .catch(error => console.error('Error', error))
+    .then(reloadPage)
 }
 
 
@@ -183,7 +184,6 @@ function renderComment() {
 }
 
 
-
 // Event listeners
 
 btnAddRec.addEventListener("click", toggleFormVisibility)
@@ -281,7 +281,6 @@ function createNewRecObj (e) {
             ingArr.push(ingColl[i].value)
         }
     };
-    // console.log(ingArr);
     // Create our Instructions array from the HTML collection pulled from our form
     let instrArr = [];
     let instrColl = document.getElementsByClassName("addInstr");
@@ -290,7 +289,11 @@ function createNewRecObj (e) {
             instrArr.push(instrColl[i].value)
         }
     };
-    // console.log(instrArr);
+    // Create initial comment array
+    let commArr = [];
+    if (document.getElementById("init-comm").value > 0) {
+        commArr.push(document.getElementById("init-comm").value)
+    };
     //Create our new Recipe Object to be POST-ed to the database
     let newRecObj = {
         img: document.getElementById("add-img").value,
@@ -304,9 +307,12 @@ function createNewRecObj (e) {
         servings: document.getElementById("add-servings").value,
         instructions: instrArr,
         ingredients: ingArr,
-        comments: []
+        comments: commArr
     }
     // console.log(newRecObj)
-    postNewRecipe(newRecObj)
+    postNewRecipe(newRecObj);
 }
 
+function reloadPage() {
+    location.reload(true);
+}

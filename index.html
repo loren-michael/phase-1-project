@@ -56,12 +56,13 @@
                     <td><input required type="text" id="add-author"></td>
                 </tr>
                 <tr>
-                    <td>Source:</td>
+                    <td>Source Website:</td>
                     <td><input type="text" id="add-source"></td>
                 </tr>
                 <tr>
                     <td>Meal type:</td>
                     <td><select required id="add-meal-selector">
+                        <option></option>
                         <option>Dinner</option>
                         <option>Lunch</option>
                         <option>Breakfast</option>
@@ -83,35 +84,19 @@
                 </tr>
                 <tr>
                     <td>Ingredients:</td>
-                    <td id="new-ing-list"><input type="text" class="addIngredients">
+                    <td id="new-ing-list"><input required type="text" class="addIngredients">
                         <br>
                         <button type="button" id="add-ingredient"> Add Ingredient </button></td>
                 </tr>
                 <tr>
                     <td>Instructions:</td>
-                    <td id="new-inst-list"><input type="text" class="addInstr">
+                    <td id="new-inst-list"><input required type="text" class="addInstr">
                     <br>
                     <button type="button" id="add-instr"> Add new step </button></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
                     <td>Initial comment:</td>
-                    <td><textarea></textarea></td>
+                    <td><textarea id="init-comm"></textarea></td>
                 </tr>
                 <tr>
                     <th colspan="2"><button type="submit" id="submit-new-recipe"> Add this recipe! </button></td>

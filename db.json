@@ -438,10 +438,203 @@
       "preptime": "10",
       "cooktime": "20",
       "servings": "28",
-      "instructions": ["Place all ingredients into bowl + mix except egg whites", "Mix (whip) egg whites in separate bowl", "Fold whites into batter gently until folded completely.", "Pour into hot waffle iron until crisp.", "Enjoy"],
-      "ingredients": ["3 eggs - separate whites", "1 1/2 cup milk", "1 3/4 cup flour", "2 tsp baking powder", "1 tsp baking soda", "1/2 tsp salt", "1/2 vegetable oil"],
+      "instructions": [
+        "Place all ingredients into bowl + mix except egg whites",
+        "Mix (whip) egg whites in separate bowl",
+        "Fold whites into batter gently until folded completely.",
+        "Pour into hot waffle iron until crisp.",
+        "Enjoy"
+      ],
+      "ingredients": [
+        "3 eggs - separate whites",
+        "1 1/2 cup milk",
+        "1 3/4 cup flour",
+        "2 tsp baking powder",
+        "1 tsp baking soda",
+        "1/2 tsp salt",
+        "1/2 vegetable oil"
+      ],
       "id": 11,
       "comments": []
+    },
+    {
+      "img": "https://assets.bonappetit.com/photos/57ad307953e63daf11a4dcb7/1:1/w_1280,c_limit/apple-dutch-baby.jpg",
+      "video": "",
+      "name": "Apple Dutch Baby",
+      "source": "https://www.bonappetit.com/recipe/apple-dutch-baby",
+      "author": "The North Shire Lodge, Manchester, VT",
+      "mealtype": "Dinner",
+      "preptime": "10",
+      "cooktime": "25",
+      "servings": "4",
+      "instructions": [
+        "Bring cider, butter, brown sugar, vanilla, and cinnamon to a boil over medium-high heat in a large saucepan. Reduce heat and boil gently, whisking occasionally, until thick and syrupy, 30–45 minutes.",
+        "Preheat oven to 425°. Whisk eggs, milk, flour, vanilla, salt, and ½ tsp. cinnamon in a medium bowl until smooth.",
+        "Melt 2 Tbsp. butter in a 10” skillet, preferably cast iron, over medium heat. Add apple and sprinkle with brown sugar and remaining ½ tsp. cinnamon. Cook, tossing often, until apple is coated and softened, about 4 minutes. Transfer to a plate.",
+        "Wipe out skillet and heat in oven until very hot, 8–10 minutes. Carefully add remaining 2 Tbsp. butter to skillet, tilting to coat bottom and sides. Add apple to center of skillet; pour batter over. Bake until pancake is puffed and golden brown around the edges and center is set but still custardy, 12–15 minutes.",
+        "Serve drizzled with apple cider syrup."
+      ],
+      "ingredients": [
+        "3  large eggs, room temperature",
+        "3/4  cup whole milk, room temperature",
+        "3/4 cup all-purpose flour",
+        "1  teaspoon vanilla extract",
+        "1/4 teaspoon kosher salt",
+        "1  teaspoon ground cinnamon, divided",
+        "4  tablespoons unsalted butter, divided",
+        "1  large Pink Lady apple, peeled, sliced ¼” thick",
+        "1  tablespoon light brown sugar",
+        "4  cups apple cider",
+        "2  tablespoons unsalted butter",
+        "1  tablespoon light brown sugar",
+        "1  teaspoon vanilla extract",
+        "1/2  teaspoon ground cinnamon"
+      ],
+      "comments": [
+        "Use this batter recipe as a base for other dutch baby adventures!"
+      ],
+      "id": 12
+    },
+    {
+      "img": "https://thiswifecooks.com/wp-content/uploads/2021/05/A359F5BC-32BE-4693-84EE-5AA57D73D91C_1_105_c.jpg",
+      "video": "",
+      "name": "Vegan Sloppy Joes",
+      "source": "",
+      "author": "Derik",
+      "mealtype": "Lunch",
+      "preptime": "5",
+      "cooktime": "25",
+      "servings": "4",
+      "instructions": [
+        "In a large skillet, saute the onion and bell peppers in olive oil for 3 to 5 minutes or until onions are soft.",
+        "Reduce heat to medium-low and add the vegetable broth and tomato sauce, stirring to combine well. Once the broth and tomato sauce is combined and hot, add the chili powder, soy sauce, hot sauce or Tabasco sauce, sugar, and TVP, stirring well to combine.",
+        "Allow to simmer for at least 15 more minutes and season well with salt and pepper."
+      ],
+      "ingredients": [
+        "1/2 onion (diced)",
+        "1 pepper (diced) (I used a poblano)",
+        "1 1/2 cups vegetable broth",
+        "1 can tomato sauce",
+        "1 tbsp. chili powder",
+        "1 tbsp. soy sauce",
+        "A few dashes of hot sauce (personally, I'd use even more)",
+        "3 tbsp. sugar",
+        "1 1/2 cups TVP",
+        "Salt and pepper to taste"
+      ],
+      "comments": [],
+      "id": 13
+    },
+    {
+      "img": "https://assets.bonappetit.com/photos/58c98b0948ee007350aee2da/1:1/w_1600,c_limit/bucatini-with-swiss-chard-and-garlicky-breadcrumbs.jpg",
+      "video": "",
+      "name": "Bucatini with Swiss Chard and Garlicky Breadcrumbs",
+      "source": "https://www.bonappetit.com/recipe/bucatini-with-swiss-chard-and-garlicky-breadcrumbs",
+      "author": "Andy Baraghani",
+      "mealtype": "Dinner",
+      "preptime": "15",
+      "cooktime": "15",
+      "servings": "4",
+      "instructions": [
+        "Heat 2 Tbsp. oil in a small skillet over medium. Cook garlic, swirling in pan often, until golden and crisp, about 2 minutes. Transfer garlic to a small bowl with a slotted spoon.",
+        "Add panko to same skillet and cook, stirring often, until golden, about 5 minutes; season with salt and pepper. Transfer to bowl with garlic.",
+        "Cook pasta in a large pot of boiling salted water, stirring occasionally, until very al dente. Drain, reserving 1 cup pasta cooking liquid.",
+        "Meanwhile, heat 3 Tbsp. oil in a large skillet over medium. Cook anchovies, mashing with a wooden spoon, until only a few flecks remain, about 4 minutes. Add chile and Swiss chard and cook until Swiss chard is slightly wilted, about 1 minute.",
+        "Add butter, pasta, and ½ cup pasta cooking liquid to Swiss chard mixture and cook, tossing often with tongs and adding more pasta cooking liquid if sauce looks dry, until sauce is emulsified and coats pasta. Remove from heat and stir in mint, lemon zest, and lemon juice.",
+        "Divide pasta among bowls. Drizzle with oil; top with garlicky breadcrumbs and Pecorino."
+      ],
+      "ingredients": [
+        "5  tablespoons olive oil, divided, plus more for drizzling",
+        "4  garlic cloves, thinly sliced",
+        "1/3 cup panko (Japanese breadcrumbs)",
+        " Kosher salt, freshly ground pepper",
+        "12  ounces bucatini or spaghetti",
+        "5  oil-packed anchovy fillets, finely chopped",
+        "1  serrano chile, thinly sliced",
+        "1  bunch small Swiss chard, ribs and stems removed, leaves coarsely torn (about 5 cups)",
+        "3  tablespoons unsalted butter, cut into pieces",
+        "1  cup coarsely chopped mint",
+        "1  cup coarsely chopped mint",
+        "2  teaspoons fresh lemon juice",
+        " Finely grated Pecorino (for serving)"
+      ],
+      "comments": [
+        "Easily scaled up for groups!"
+      ],
+      "id": 14
+    },
+    {
+      "img": "https://assets.bonappetit.com/photos/5f0612ea4714d90f946d2031/16:9/w_1280,c_limit/0820-Farmers-Market-Farro-Bowl.jpg",
+      "video": "",
+      "name": "Farmers Market Farro Bowls",
+      "source": "https://www.bonappetit.com/recipe/farmers-market-farro-bowls",
+      "author": "Christina Chaey",
+      "mealtype": "Lunch",
+      "preptime": "20",
+      "cooktime": "45",
+      "servings": "4",
+      "instructions": [
+        "Pour farro into a medium saucepan of boiling salted water, reduce heat, and simmer, stirring occasionally, until tender, 25–30 minutes. Drain farro and spread out on a rimmed baking sheet; let cool.",
+        "Meanwhile, using a slotted spoon, carefully lower eggs into a small saucepan of boiling water and cook 6½ minutes for an oozy, jammy yolk or 7 minutes for a slightly firmer middle. Transfer eggs to a bowl of ice water with slotted spoon and let sit until cool enough to handle, about 2 minutes. Remove eggs from ice water; peel and slice in half lengthwise.",
+        "Pack radish slices into a pint jar. Whisk vinegar, 1 Tbsp. sugar, 1 tsp. salt, and ½ cup hot water in a small bowl until sugar and salt are dissolved. Pour brine over radish slices; let cool. Cover and chill at least 1 hour before using.",
+        "Cut tofu crosswise into 1/2\"-thick slabs, then cut each slab on a diagonal to create 2 triangles. Pat dry with a clean kitchen towel. Heat 2 Tbsp. grapeseed oil in a large nonstick skillet over medium-high. Add tofu in a single layer, season with salt, and cook, undisturbed, until golden brown underneath, about 4 minutes. Turn over and cook until golden brown on second side, about 4 minutes. Transfer tofu to a plate; reserve skillet (no need to wipe out).",
+        "Whisk lime juice, gochujang, mayonnaise, ¼ cup grapeseed oil, 1 Tbsp. soy sauce, 1 Tbsp. sesame oil, and remaining 1 Tbsp. sugar in a small bowl. Taste; season with salt if desired.",
+        "Heat remaining 1 Tbsp. grapeseed oil in reserved skillet over medium-high. Add zucchini, season with salt, and cook, tossing just once or twice, until tender and blistered in spots, about 4 minutes. Add remaining 1 tsp. soy sauce and 1 tsp. sesame oil and toss to coat. Transfer to a plate.",
+        "To serve, divide farro among bowls. Arrange eggs, drained pickled radish, tofu, zucchini, and raw vegetables of choice on top as desired. Drizzle each bowl with a few spoonfuls of dressing to your liking."
+      ],
+      "ingredients": [
+        "1 cup semi-pearled farro",
+        "1 tsp. kosher salt, plus more",
+        "4 large eggs",
+        "1 large watermelon radish or 6–8 red radishes, trimmed, thinly sliced on a mandoline if you’ve got one",
+        "1/4 cup unseasoned rice vinegar",
+        "2 Tbsp. sugar, divided",
+        "1 14-oz. block extra-firm tofu, drained",
+        "3 Tbsp. plus 1/4 cup grapeseed or vegetable oil, divided",
+        "2 Tbsp. fresh lime juice",
+        "2 Tbsp. gochujang (Korean hot pepper paste)",
+        "1 Tbsp. mayonnaise",
+        "1 Tbsp. plus 1 tsp. soy sauce",
+        "1 Tbsp. plus 1 tsp. toasted sesame oil",
+        "1 medium zucchini or summer squash, halved lengthwise, cut crosswise into 1/4\"-thick half-moons",
+        "2–3 cups thinly sliced or shredded raw vegetables (such as carrots, scallions, blanched sugar snap peas, baby bok choy, cucumbers, pea shoots, or alfalfa sprouts)"
+      ],
+      "comments": [],
+      "id": 15
+    },
+    {
+      "img": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2013%2F12%2F06%2F200707-xl-over-the-top-mushroom-quiche.jpg",
+      "video": "",
+      "name": "Over-the-Top Mushroom Quiche",
+      "source": "https://www.foodandwine.com/recipes/over-top-mushroom-quiche",
+      "author": "Thomas Keller",
+      "mealtype": "Breakfast",
+      "preptime": "90 mins",
+      "cooktime": "5.5 hrs",
+      "servings": "12",
+      "instructions": [
+        "Preheat the oven to 325°. In a very large skillet, heat the oil. Add the oyster and white mushrooms, season with salt and pepper and cook over high heat, stirring, until starting to soften, about 5 minutes. Reduce the heat to moderate. Add the butter, shallots and thyme and cook, stirring often, until the mushrooms are tender, about 12 minutes longer. Season with salt and pepper and let cool.",
+        "Scatter 1/4 cup of the cheese and half of the mushrooms evenly over the bottom of the Buttery Pastry Shell. In a blender, mix half each of the milk, cream and eggs and season with 1 1/2 teaspoons of salt, 1/8 teaspoon of pepper and a pinch of nutmeg at high speed until frothy, about 1 minute. Pour the custard into the pastry shell. Top with another 1/4 cup of cheese and the remaining mushrooms. Make a second batch of custard with the remaining milk, cream and eggs, plus the same amount of salt, pepper and nutmeg as before and pour into the shell. Scatter the remaining 1/4 cup of cheese on top.",
+        "Bake the quiche for about 1 1/2 hours, or until richly browned on top and the custard is barely set in the center. Let cool in the pan until very warm.",
+        "Using a serrated knife, cut the pastry shell flush with the top of the pan. Carefully lift the springform pan ring off the quiche. Cut the mushroom quiche into wedges, transfer to plates and serve warm."
+      ],
+      "ingredients": [
+        "1 tablespoon vegetable oil",
+        "1 pound oyster mushrooms, stems trimmed and large caps halved or quartered",
+        "1 pound white mushrooms, thinly sliced",
+        "Salt and freshly ground white pepper",
+        "1 tablespoon unsalted butter",
+        "2 small shallots, minced",
+        "1 tablespoon thyme, chopped",
+        "3/4 cup shredded Comté or Emmental cheese (2 1/2 ounces)",
+        "Buttery Pastry Shell",
+        "2 cups milk",
+        "2 cups heavy cream",
+        "6 large eggs, lightly beaten",
+        "Freshly grated nutmeg"
+      ],
+      "comments": [],
+      "id": 16
     }
   ]
 }
