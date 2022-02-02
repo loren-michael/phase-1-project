@@ -55,12 +55,17 @@ function patchComment(e) {
     }) 
 }
 
-function postARecipe(recObj) {
-
-}
-
 function postNewRecipe(newRecObj) {
-    
+    // console.log(JSON.stringify(newRecObj))
+    fetch(baseURL, {
+        method: 'POST',
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(newRecObj)
+    })
+    .then(resp => resp.json())
+    .catch(error => console.error('Error', error))
 }
 
 
@@ -139,11 +144,12 @@ function renderDetails(recipe) {
     commentSection.className = "card";
     commentSection.id = "comment-section";
     let commArr = recipe.comments;
-    commArr.forEach(comment => {
+    if (commArr.length > 0) {
+        commArr.forEach(comment => {
         const commentPara = document.createElement("li");
         commentPara.innerText = `${comment}`;
         commentSection.append(commentPara)
-    });
+    })};
     // Create the back button, back button clone for the top of the page and add event listener
     const backBtn = document.createElement("button");
     backBtn.id = "back-btn";
@@ -297,7 +303,8 @@ function createNewRecObj (e) {
         cooktime: document.getElementById("add-cooktime").value,
         servings: document.getElementById("add-servings").value,
         instructions: instrArr,
-        ingredients: ingArr
+        ingredients: ingArr,
+        comments: []
     }
     // console.log(newRecObj)
     postNewRecipe(newRecObj)

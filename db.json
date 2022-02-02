@@ -8,9 +8,9 @@
       "source": "",
       "author": "Amanda",
       "mealtype": "Breakfast",
-      "preptime": 15,
-      "cooktime": 15,
-      "servings": 2,
+      "preptime": "15",
+      "cooktime": "15",
+      "servings": "2",
       "comments": [
         "From Amanda's trip to Austin, TX.",
         "Sometimes we cook the meat and onion together to save some time"
@@ -48,9 +48,9 @@
       "source": "https://bromabakery.com/copycat-levain-bakery-chocolate-chip-cookies",
       "author": "Broma Bakery",
       "mealtype": "Snack",
-      "preptime": 10,
-      "cooktime": 15,
-      "servings": 12,
+      "preptime": "10",
+      "cooktime": "15",
+      "servings": "12",
       "comments": [
         "Switch the baking soda and baking powder amounts for a better cookie!",
         "Freeze dough in portions on a cookie sheet and package together once frozen.",
@@ -91,9 +91,9 @@
       "source": "https://www.peta.org/recipes/chicken-dumplings-2/",
       "author": "PETA",
       "mealtype": "Dinner",
-      "preptime": 30,
-      "cooktime": 40,
-      "servings": 8,
+      "preptime": "30",
+      "cooktime": "40",
+      "servings": "8",
       "comments": [
         "Use gardein chicken scallopini for the chicken.",
         "Bisquick dumplings are great with this!"
@@ -130,9 +130,9 @@
       "source": "https://carlsbadcravings.com/easy-one-pot-lasagna-soup/#wprm-recipe-container-36068",
       "author": "Carlsbad Cravings",
       "mealtype": "Lunch",
-      "preptime": 10,
-      "cooktime": 40,
-      "servings": 8,
+      "preptime": "10",
+      "cooktime": "40",
+      "servings": "8",
       "comments": [
         "We use trumpets for the noodles instead of lasagna noodles.",
         "Soup with noodles don't freeze well and aren't great reheated, so let's scale this recipe next time we make it."
@@ -174,9 +174,9 @@
       "source": "https://cooking.nytimes.com/recipes/1018954-baked-ziti",
       "author": "Alison Roman",
       "mealtype": "Dinner",
-      "preptime": 30,
-      "cooktime": 60,
-      "servings": 8,
+      "preptime": "30",
+      "cooktime": "60",
+      "servings": "8",
       "comments": [],
       "instructions": [
         "Make the tomato sauce: Heat oil in a large, heavy-bottomed pot over medium heat. Add onion and garlic and season with salt and pepper. Cook, stirring occasionally, until the onion is totally softened and translucent (without letting it brown), 8 to 10 minutes. Add tomato paste and continue to cook, stirring until it has turned a deeper brick-red color, tinting the oil and onions a fiery orange color, about 2 minutes. Crush the whole tomatoes by hand and add them (including the juice) and the tomato purée to the pot, stirring to scrape up any bits from the bottom of the pot. Season with salt and pepper and add red pepper flakes, if using. Bring to a simmer and cook, stirring occasionally, until the tomato sauce has thickened and flavors have come together, 20 to 30 minutes.",
@@ -213,9 +213,9 @@
       "source": "https://food52.com/recipes/23474-grilled-corn-basil-and-ground-cherry-salad",
       "author": "BEVI",
       "mealtype": "Snack",
-      "preptime": 10,
-      "cooktime": 20,
-      "servings": 4,
+      "preptime": "10",
+      "cooktime": "20",
+      "servings": "4",
       "comments": [
         "So good when we get ground cherries from the farmer's market."
       ],
@@ -250,8 +250,8 @@
       "author": "Genius Recipes",
       "mealtype": "Breakfast",
       "preptime": "13 hours",
-      "cooktime": 60,
-      "servings": 8,
+      "cooktime": "60",
+      "servings": "8",
       "comments": [],
       "instructions": [
         "Butter a 9 x 13-inch baking dish (or a tall-sided 12-inch ovenproof skillet) and arrange the cubed bread in the dish.",
@@ -286,9 +286,9 @@
       "source": "https://goop.com/recipes/shroomami/",
       "author": "Goop",
       "mealtype": "Dinner",
-      "preptime": 60,
-      "cooktime": 30,
-      "servings": 4,
+      "preptime": "60",
+      "cooktime": "30",
+      "servings": "4",
       "comments": [],
       "instructions": [
         "To make the spicy sunflower seeds, preheat the oven to 350°F. Toss the seeds with the other ingredients in a large bowl, until well coated. Spread the coated seeds out on a baking sheet in a thin even layer. Bake for 15 minutes or until well toasted, allow to cool completely before using.",
@@ -354,9 +354,9 @@
       "source": "https://thehealthyfoodie.com/hasselback-butternut-squash/",
       "author": "Soniai The Healthy Foodie",
       "mealtype": "Dinner",
-      "preptime": 20,
-      "cooktime": 75,
-      "servings": 6,
+      "preptime": "20",
+      "cooktime": "75",
+      "servings": "6",
       "comments": [],
       "instructions": [
         "Preheat your oven to 425°F and place a rack in the top third position.",
@@ -397,9 +397,9 @@
       "source": "https://www.4theloveoffoodblog.com/meatless-monday-eggplant-manicotti/",
       "author": "Rocco Dispirito",
       "mealtype": "Dinner",
-      "preptime": 20,
-      "cooktime": 40,
-      "servings": 6,
+      "preptime": "20",
+      "cooktime": "40",
+      "servings": "6",
       "comments": [
         "Use this as a base recipe for regular manicotti or stuffed shells"
       ],
@@ -427,6 +427,21 @@
         "non stick olive oil spray (or use a basting brush to apply oil)"
       ],
       "tags": []
+    },
+    {
+      "img": "https://www.simplyrecipes.com/thmb/PxA1yC6dfvcHGqTn0O9i3UGh-HU=/648x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2016__09__Buttermilk-Waffles-vertical-a-1600-78c479c180cc4c8986034cf90bb63f48.jpg",
+      "video": "",
+      "name": "Dad's Waffles",
+      "source": "",
+      "author": "Dad",
+      "mealtype": "Breakfast",
+      "preptime": "10",
+      "cooktime": "20",
+      "servings": "28",
+      "instructions": ["Place all ingredients into bowl + mix except egg whites", "Mix (whip) egg whites in separate bowl", "Fold whites into batter gently until folded completely.", "Pour into hot waffle iron until crisp.", "Enjoy"],
+      "ingredients": ["3 eggs - separate whites", "1 1/2 cup milk", "1 3/4 cup flour", "2 tsp baking powder", "1 tsp baking soda", "1/2 tsp salt", "1/2 vegetable oil"],
+      "id": 11,
+      "comments": []
     }
   ]
 }
