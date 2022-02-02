@@ -291,7 +291,7 @@ function createNewRecObj (e) {
     };
     // Create initial comment array
     let commArr = [];
-    if (document.getElementById("init-comm").value > 0) {
+    if (document.getElementById("init-comm").value.length > 0) {
         commArr.push(document.getElementById("init-comm").value)
     };
     //Create our new Recipe Object to be POST-ed to the database

@@ -54,8 +54,7 @@
       "comments": [
         "Switch the baking soda and baking powder amounts for a better cookie!",
         "Freeze dough in portions on a cookie sheet and package together once frozen.",
-        "Undercook the cookie for best results.",
-        "test"
+        "Undercook the cookie for best results."
       ],
       "instructions": [
         "Line a large baking sheet with a silicon mat or parchment paper. Set aside.",
@@ -635,6 +634,77 @@
       ],
       "comments": [],
       "id": 16
+    },
+    {
+      "img": "https://www.rabbitandwolves.com/wp-content/uploads/2018/07/DSC_0872.jpg",
+      "video": "",
+      "name": "Vegan Caesar Pasta Salad",
+      "source": "https://www.rabbitandwolves.com/caesar-pasta-salad-vegan/#recipe",
+      "author": "Lauren Hartmann",
+      "mealtype": "Side",
+      "preptime": "10 mins",
+      "cooktime": "30 mins",
+      "servings": "6",
+      "instructions": [
+        "Cook your pasta according to package directions. Drain and let cool. ",
+        "Make the dressing. Add all the dressing ingredients to a blender. Blend until smooth, taste and adjust seasoning. ",
+        "Once the croutons are done, in a large bowl, add the chopped romaine, pasta, croutons and then pour the dressing on and toss. Serve immediately. "
+      ],
+      "ingredients": [
+        "1/2 C. Vegan Mayo",
+        "2 tsp. Dijon mustard",
+        "1 Tbsp. Capers",
+        "Juice of 2 Lemons, about 2 Tbsp.",
+        "2 Tbsp. Nutritional yeast",
+        "1 Clove Garlic",
+        "1/4 tsp. Salt",
+        "Pinch of black pepper",
+        "1 Head Romaine, chopped",
+        "16 oz. Pasta"
+      ],
+      "comments": [
+        "Omitted the crouton portion of the recipe as we don't make them.",
+        "Mini penne is perfect",
+        "We don't use nutritional yeast in our dressing, and only use half a lemon."
+      ],
+      "id": 17
+    },
+    {
+      "img": "https://assets.bonappetit.com/photos/5b75977fbb4c7973c8ddb798/16:9/w_1280,c_limit/basically-corn-salsa-01.jpg",
+      "video": "",
+      "name": "Corn Salsa",
+      "source": "https://www.bonappetit.com/recipe/corn-salsa",
+      "author": "Claire Saffitz",
+      "mealtype": "Snack",
+      "preptime": "15",
+      "cooktime": "",
+      "servings": "Makes about 2 cups",
+      "instructions": [
+        "Remove husks and silk from 2 ears of corn. Cook corn and 1 poblano chile in a dry medium cast-iron skillet over high heat, turning occasionally, until corn is charred in spots and chile is blistered all over, 10–14 minutes.",
+        "Transfer corn and chile to a cutting board and let cool for a minute or two. Lay corn flat and slice along one side to shave off kernels. Repeat, rotating cob, until all kernels have been cut off. Discard cobs. Transfer corn to a medium bowl.",
+        "Crush corn with a potato masher or wooden spoon to help release starch and juices, which will help to thicken the salsa slightly. (Also a good way to get out a little aggression.)",
+        "Cut around poblano chile stem to remove, then slice into flesh lengthwise to open up chile like a book. Scrape out seeds and ribs, flip over, then use the dull edge of your knife to scrape off charred skin and discard.",
+        "Coarsely chop chile and add to bowl with corn.",
+        "Do a little bit more knife work: Cut stem end off of 1 jalapeño, then halve lengthwise. Pull out ribs and seeds, then finely chop flesh. Add to bowl with corn.",
+        "Finely chop ½ red onion and add to bowl as well. Season with ½ tsp. salt and give it all a good mix with a large spoon.",
+        "Core 1 tomato, then cut in half through its equator. Squeeze tomato halves over a bowl or trash to push out seeds and watery parts and discard. Chop tomato flesh and gently fold into salsa.",
+        "Pick ¼ cup cilantro leaves from stems. Very finely chop leftover stems and fold into salsa along with leaves.",
+        "Cut 1 lime in half and squeeze with your hands into a small bowl. Measure out 2 Tbsp. and add to corn mixture. Taste and season with more salt. Mix one more time to combine.",
+        "Stir in herbs right before serving."
+      ],
+      "ingredients": [
+        "2 medium ears of corn",
+        "1 medium poblano chile",
+        "1 medium jalapeño or Fresno chile",
+        "1/2 small red onion",
+        "1/2 tsp. kosher salt, plus more",
+        "1 large ripe beefsteak tomato",
+        "1/4 bunch cilantro",
+        "1 lime",
+        "Tortilla chips (for serving)"
+      ],
+      "comments": [],
+      "id": 18
     }
   ]
 }
