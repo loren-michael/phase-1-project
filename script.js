@@ -7,11 +7,12 @@ const mealSelector = document.getElementById("meal-selector");
 const btnLoadSel = document.getElementById("meal-select");
 const recListSec = document.getElementById("recipe-list");
 const recDispSec = document.getElementById("recipe-display");
-const btnAddIng = document.getElementById("add-ingredient");
-const btnAddInstr = document.getElementById("add-instr");
+const btnAddIng = document.getElementById("btn-add-ingredient");
+const btnAddInstr = document.getElementById("btn-add-instructions");
 const btnSubmitRec = document.getElementById("submit-new-recipe")
 
 // console.log(btnAddIng)
+// console.log(btnAddInstr)
 
 // DOMContentLoaded
 document.addEventListener("DOMContentLoaded", () => {
@@ -235,7 +236,8 @@ function toggleFormVisibility(e) {
     }
 }
 
-function filterRecipesByMeal() {
+function filterRecipesByMeal(e) {
+    e.preventDefault()
     const recipeList = document.getElementById("recipe-list");
     const mealType = mealSelector.value;
     let listLi = recipeList.getElementsByTagName("li")
@@ -255,9 +257,10 @@ function addIngBox(e) {
     const lineBreak = document.createElement("br");
     const newIngBox = document.createElement("input");
     newIngBox.type = "text";
-    newIngBox.className = "addIngredients";
-    const addButton = e.target.parentNode;
-    addButton.insertBefore(newIngBox, e.target)
+    newIngBox.id = "add-ingredient"
+    newIngBox.name = "add-ingredient";
+    const addButton = e.target.parentNode; // targets the div
+    addButton.insertBefore(newIngBox, e.target);
     addButton.insertBefore(lineBreak, e.target)
 }
 
@@ -265,9 +268,10 @@ function addInstrBox(e) {
     const lineBreak = document.createElement("br");
     const newInstrBox = document.createElement("input");
     newInstrBox.type = "text";
-    newInstrBox.className = "addInstr";
-    const addButton = e.target.parentNode;
-    addButton.insertBefore(newInstrBox, e.target)
+    newInstrBox.id = "add-instructions";
+    newInstrBox.name = "add-instructions";
+    const addButton = e.target.parentNode; // targets the div
+    addButton.insertBefore(newInstrBox, e.target);
     addButton.insertBefore(lineBreak, e.target)
 }
 

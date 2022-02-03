@@ -10,7 +10,7 @@
             <div id="navigation">
                 <button id="add-recipe" type="submit"> Add A Recipe </button>
             </div>
-            <div id="select">
+            <form id="select">
                 <br>
                 Or select a meal: 
                 <select id="meal-selector">
@@ -24,7 +24,7 @@
                 <button type="submit" id="meal-select"> Let's go! </button>
                 <br>
                 <br>
-            </div>
+            </form>
         </div>
         <ul id="recipe-list">
             <!-- Recipe list displays here -->
@@ -35,73 +35,68 @@
         <div id="add-recipe-div" class="hide">
             <form id="add-recipe-form">
             <!-- Add a form for adding a new recipe here -->
-                <table id="add-recipe-table">
-                <tr>
-                    <th colspan="2">Add a Recipe</th>
-                </tr>
-                <tr>
-                    <td>Recipe Name:</td>
-                    <td><input required type="text" id="add-name"></td>
-                </tr>
-                <tr>
-                    <td>Image HTML:</td>
-                    <td><input type="text" id="add-img"></td>
-                </tr>
-                    <tr>
-                    <td>Video Embed:</td>
-                    <td><input type="text" id="add-video"></td>
-                </tr>
-                <tr>
-                    <td>Author:</td>
-                    <td><input required type="text" id="add-author"></td>
-                </tr>
-                <tr>
-                    <td>Source Website:</td>
-                    <td><input type="text" id="add-source"></td>
-                </tr>
-                <tr>
-                    <td>Meal type:</td>
-                    <td><select required id="add-meal-selector">
+                <div>
+                    <label for="add-name">Recipe Name:</label>
+                    <input required type="text" id="add-name" name="add-name">
+                </div>
+                <div>
+                    <label for="add-img">Image HTML:</label>
+                    <input required type="text" id="add-img" name="add-img">
+                </div>
+                <div>
+                    <label for="add-video">Video Embed:</label>
+                    <input required type="text" id="add-video" name="add-video">
+                </div>
+                <div>
+                    <label for="add-author">Author:</label>
+                    <input required type="text" id="add-author" name="add-author">
+                </div>
+                <div>
+                    <label for="add-source">Source Website:</label>
+                    <input required type="text" id="add-source" name="add-source">
+                </div>
+                <div>
+                    <label for="add-meal-selector">Meal type:</label>
+                    <select required id="add-meal-selector">
                         <option></option>
                         <option>Dinner</option>
                         <option>Lunch</option>
                         <option>Breakfast</option>
                         <option>Side</option>
                         <option>Snack</option>
-                    </select></td>
-                </tr>
-                <tr>
-                    <td>Prep time:</td>
-                    <td><input type="text" id="add-preptime"></td>
-                </tr>
-                <tr>
-                    <td>Cook time:</td>
-                    <td><input type="text" id="add-cooktime"></td>
-                </tr>
-                <tr>
-                    <td>Servings:</td>
-                    <td><input type="text" id="add-servings"></td>
-                </tr>
-                <tr>
-                    <td>Ingredients:</td>
-                    <td id="new-ing-list"><input required type="text" class="addIngredients">
-                        <br>
-                        <button type="button" id="add-ingredient"> Add Ingredient </button></td>
-                </tr>
-                <tr>
-                    <td>Instructions:</td>
-                    <td id="new-inst-list"><input required type="text" class="addInstr">
+                    </select>
+                </div>
+                <div>
+                    <label for="add-preptime">Prep time:</label>
+                    <input required type="text" id="add-preptime" name="add-preptime">
+                </div>
+                <div>
+                    <label for="add-cooktime">Cook time:</label>
+                    <input required type="text" id="add-cooktime" name="add-cooktime">
+                </div>
+                <div>
+                    <label for="add-servings">Servings:</label>
+                    <input required type="text" id="add-servings" name="add-servings">
+                </div>
+                <div>
+                    <label for="add-ingredients">Ingredients:</label>
+                    <input type="text" id="add-ingredient" name="add-ingredients">
                     <br>
-                    <button type="button" id="add-instr"> Add new step </button></td>
-                </tr>
-                <tr>
-                    <td>Initial comment:</td>
-                    <td><textarea id="init-comm"></textarea></td>
-                </tr>
-                <tr>
-                    <th colspan="2"><button type="submit" id="submit-new-recipe"> Add this recipe! </button></td>
-                </tr>                
-            </table>
+                    <button type="button" id="btn-add-ingredient"> Add Ingredient </button>
+                </div>
+                <div>
+                    <label for="add-instructions">Instructions:</label>
+                    <input type="text" id="add-instructions" name="add-instructions">
+                    <br>
+                    <button type="button" id="btn-add-instructions"> Add new step </button>
+                </div>
+                <div>
+                    <label for="init-comm">Initial comment:</label>
+                    <textarea id="init-comm"></textarea>
+                </div>
+                <div>
+                    <button type="submit" id="submit-new-recipe"> Add this recipe! </button>
+                </div>
             <!-- <label for=""></label><input type="text" id=""> -->
             </form>
         </div>
