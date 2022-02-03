@@ -7,9 +7,11 @@ const mealSelector = document.getElementById("meal-selector");
 const btnLoadSel = document.getElementById("meal-select");
 const recListSec = document.getElementById("recipe-list");
 const recDispSec = document.getElementById("recipe-display");
+const recipeForm = document.getElementById("add-recipe-form");
 const btnAddIng = document.getElementById("btn-add-ingredient");
 const btnAddInstr = document.getElementById("btn-add-instructions");
-const btnSubmitRec = document.getElementById("submit-new-recipe")
+const btnSubmitRec = document.getElementById("submit-new-recipe");
+const btnResetForm = document.getElementById("add-form-reset")
 
 // console.log(btnAddIng)
 // console.log(btnAddInstr)
@@ -192,6 +194,7 @@ btnLoadSel.addEventListener("click", filterRecipesByMeal)
 btnAddIng.addEventListener("click", addIngBox)
 btnAddInstr.addEventListener("click", addInstrBox)
 btnSubmitRec.addEventListener("click", createNewRecObj)
+btnResetForm.addEventListener("click", resetForm)
 
 
 // Event Handlers
@@ -241,7 +244,7 @@ function filterRecipesByMeal(e) {
     const recipeList = document.getElementById("recipe-list");
     const mealType = mealSelector.value;
     let listLi = recipeList.getElementsByTagName("li")
-    console.log(listLi)
+    // console.log(listLi)
     for(i=0; i < listLi.length; i++) {
         if (mealType === "Show All"){
             listLi[i].style.display = ""
@@ -277,7 +280,7 @@ function addInstrBox(e) {
 
 function createNewRecObj (e) {
     e.preventDefault();// Prevent default on a submit is preventing you from the automatic POST, which in turn stops the page from refreshing
-    //Create our Ingredients array from the HTML collection pull from our form
+    //Create our Ingredients array from the HTML collection pulled from our form
     let ingArr = [];
     let ingColl = document.getElementsByClassName("addIngredients");
     for (let i = 0; i < ingColl.length; i++) {
@@ -319,4 +322,8 @@ function createNewRecObj (e) {
 
 function reloadPage() {
     location.reload(true);
+}
+
+function resetForm() {
+    recipeForm.reset()
 }
