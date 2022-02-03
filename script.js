@@ -193,6 +193,7 @@ btnAddRec.addEventListener("click", toggleFormVisibility)
 btnLoadSel.addEventListener("click", filterRecipesByMeal)
 btnAddIng.addEventListener("click", addIngBox)
 btnAddInstr.addEventListener("click", addInstrBox)
+// recipeForm.addEventListener("submit", createNewRecObj)
 btnSubmitRec.addEventListener("click", createNewRecObj)
 btnResetForm.addEventListener("click", resetForm)
 
@@ -282,7 +283,7 @@ function createNewRecObj (e) {
     e.preventDefault();// Prevent default on a submit is preventing you from the automatic POST, which in turn stops the page from refreshing
     //Create our Ingredients array from the HTML collection pulled from our form
     let ingArr = [];
-    let ingColl = document.getElementsByClassName("addIngredients");
+    let ingColl = document.getElementsByClassName("add-ingredient");
     for (let i = 0; i < ingColl.length; i++) {
         if (ingColl[i].value.length > 0) {
             ingArr.push(ingColl[i].value)
@@ -290,7 +291,7 @@ function createNewRecObj (e) {
     };
     // Create our Instructions array from the HTML collection pulled from our form
     let instrArr = [];
-    let instrColl = document.getElementsByClassName("addInstr");
+    let instrColl = document.getElementsByClassName("add-instructions");
     for (let i = 0; i < instrColl.length; i++) {
         if (instrColl[i].value.length > 0) {
             instrArr.push(instrColl[i].value)
@@ -316,12 +317,22 @@ function createNewRecObj (e) {
         ingredients: ingArr,
         comments: commArr
     }
-    // console.log(newRecObj)
-    postNewRecipe(newRecObj);
+    console.log(newRecObj)
+    // postNewRecipe(newRecObj);
 }
+
+// function createNewRecObj (e) {
+//     e.preventDefault();
+//     let newRecObj = {};
+//     console.log(newRecObj)
+// }
 
 function reloadPage() {
     location.reload(true);
+}
+
+function submitForm() {
+    recipeForm.submit()
 }
 
 function resetForm() {
