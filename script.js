@@ -190,7 +190,7 @@ function renderComment() {
 // Event listeners
 
 btnAddRec.addEventListener("click", toggleFormVisibility)
-btnLoadSel.addEventListener("click", filterRecipesByMeal)
+// btnLoadSel.addEventListener("click", filterRecipesByMeal)
 btnAddIng.addEventListener("click", addIngBox)
 btnAddInstr.addEventListener("click", addInstrBox)
 // recipeForm.addEventListener("submit", createNewRecObj)
@@ -241,7 +241,7 @@ function toggleFormVisibility(e) {
 }
 
 function filterRecipesByMeal(e) {
-    e.preventDefault()
+    // e.preventDefault()
     const recipeList = document.getElementById("recipe-list");
     const mealType = mealSelector.value;
     let listLi = recipeList.getElementsByTagName("li")

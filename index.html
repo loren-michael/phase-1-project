@@ -13,7 +13,7 @@
             <form id="select">
                 <br>
                 Or select a meal: 
-                <select id="meal-selector">
+                <select onchange="filterRecipesByMeal()" id="meal-selector">
                     <option>Show All</option>
                     <option>Dinner</option>
                     <option>Lunch</option>
@@ -21,7 +21,7 @@
                     <option>Side</option>
                     <option>Snack</option>
                 </select>
-                <button type="submit" id="meal-select"> Let's go! </button>
+                <!-- <button type="submit" id="meal-select"> Let's go! </button> -->
                 <br>
                 <br>
             </form>
