@@ -54,7 +54,8 @@
       "comments": [
         "Switch the baking soda and baking powder amounts for a better cookie!",
         "Freeze dough in portions on a cookie sheet and package together once frozen.",
-        "Undercook the cookie for best results."
+        "Undercook the cookie for best results.",
+        "These cookies are GREAT!"
       ],
       "instructions": [
         "Line a large baking sheet with a silicon mat or parchment paper. Set aside.",
@@ -779,6 +780,27 @@
       ],
       "comments": [],
       "id": 20
+    },
+    {
+      "img": "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,w_1000/k%2Farchive%2Fa9696fb4dd17254516d5ebca8e3705ac7243dcfa",
+      "video": "",
+      "name": "Pasta Primavera",
+      "source": "https://www.thekitchn.com/how-to-make-one-pot-pasta-primavera-256072",
+      "author": "Patty Catalano",
+      "mealtype": "Dinner",
+      "preptime": "10 mins",
+      "cooktime": "20 mins",
+      "servings": "6",
+      "instructions": [
+        "Make a garlic-lemon butter. Mince and mash the garlic and 1/2 teaspoon of the salt together to make a paste. Transfer to a small bowl, add 4 tablespoons of the butter and the lemon zest, and mash together until combined; set aside."
+      ],
+      "ingredients": [
+        "2 cloves garlic, smashed"
+      ],
+      "comments": [
+        "So good with lots of cheese on top"
+      ],
+      "id": 21
     }
   ]
 }

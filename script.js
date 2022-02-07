@@ -261,7 +261,7 @@ function addIngBox(e) {
     const lineBreak = document.createElement("br");
     const newIngBox = document.createElement("input");
     newIngBox.type = "text";
-    newIngBox.id = "add-ingredient"
+    newIngBox.class = "add-ingredient"
     newIngBox.name = "add-ingredient";
     const addButton = e.target.parentNode; // targets the div
     addButton.insertBefore(newIngBox, e.target);
@@ -272,7 +272,7 @@ function addInstrBox(e) {
     const lineBreak = document.createElement("br");
     const newInstrBox = document.createElement("input");
     newInstrBox.type = "text";
-    newInstrBox.id = "add-instructions";
+    newInstrBox.class = "add-instructions";
     newInstrBox.name = "add-instructions";
     const addButton = e.target.parentNode; // targets the div
     addButton.insertBefore(newInstrBox, e.target);
