@@ -317,10 +317,11 @@ function createNewRecObj (e) {
         ingredients: ingArr,
         comments: commArr
     }
-    console.log(newRecObj)
-    // postNewRecipe(newRecObj);
+    // console.log(newRecObj)
+    postNewRecipe(newRecObj);
 }
 
+// This is for a future version
 // function createNewRecObj (e) {
 //     e.preventDefault();
 //     let newRecObj = {};

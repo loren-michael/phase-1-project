@@ -31,6 +31,6 @@ div.card {
     margin: 10px;
     padding: 15px;
     padding-top: 35px;
-    background: rgb(232, 210, 233);
+    /* background: rgb(232, 210, 233); */
     block-size: auto;
 }
