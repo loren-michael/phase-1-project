@@ -15,7 +15,10 @@ In your terminal, navigate to the directory where you'd like to install, and typ
 Once the project is cloned you will need to start your json server. Do this by typing the following into your terminal:
         json-server --watch db.json
 
-Open the index.html file in your browser and you should see the Recipe Manager with a list of recipes there for you to interact with.
+If you need to install the json server, please install by typing this into your terminal:
+        npm install -g json-server
+
+Once the server is running, open the index.html file in your browser and you should see the Recipe Manager with a list of recipes there for you to interact with.
 
 
 # Functionality
