@@ -13,13 +13,11 @@ const btnAddInstr = document.getElementById("btn-add-instructions");
 const btnSubmitRec = document.getElementById("submit-new-recipe");
 const btnResetForm = document.getElementById("add-form-reset")
 
-// console.log(btnAddIng)
-// console.log(btnAddInstr)
 
 // DOMContentLoaded
 document.addEventListener("DOMContentLoaded", () => {
     fetchRecipes()
-})// End of DOMContentLoaded
+})
 
 
 // Fetches
@@ -240,7 +238,7 @@ function toggleFormVisibility(e) {
     }
 }
 
-function filterRecipesByMeal(e) {
+function filterRecipesByMeal() {
     // e.preventDefault()
     const recipeList = document.getElementById("recipe-list");
     const mealType = mealSelector.value;
@@ -261,7 +259,7 @@ function addIngBox(e) {
     const lineBreak = document.createElement("br");
     const newIngBox = document.createElement("input");
     newIngBox.type = "text";
-    newIngBox.class = "add-ingredient"
+    newIngBox.className = "add-ingredient"
     newIngBox.name = "add-ingredient";
     const addButton = e.target.parentNode; // targets the div
     addButton.insertBefore(newIngBox, e.target);
@@ -272,7 +270,7 @@ function addInstrBox(e) {
     const lineBreak = document.createElement("br");
     const newInstrBox = document.createElement("input");
     newInstrBox.type = "text";
-    newInstrBox.class = "add-instructions";
+    newInstrBox.className = "add-instructions";
     newInstrBox.name = "add-instructions";
     const addButton = e.target.parentNode; // targets the div
     addButton.insertBefore(newInstrBox, e.target);
