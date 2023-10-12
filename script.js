@@ -26,6 +26,7 @@ function fetchRecipes() {
     return fetch(baseURL)
     .then(resp => resp.json())
     .then(renderAllRecipes)
+    console.log("Hello world")
 }
 
 function getRecipeDetails(e) {
@@ -337,3 +338,4 @@ function submitForm() {
 function resetForm() {
     recipeForm.reset()
 }
+
